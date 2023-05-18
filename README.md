@@ -1,6 +1,6 @@
-# ULTRA - automated test framework for the https://www.saucedemo.com/ dummy website.
+# ULTRA - automated test framework for the saucedemo dummy website.
 ## Summary
-This repository contains automated test framerowk for saucedemo dummy webpage. It is a part of **ULTRA** recruitment process. Solution has been done in cypress. 
+This repository contains automated test framerowk for https://www.saucedemo.com/ dummy webpage. It is a part of **ULTRA** recruitment process. Solution has been done in cypress. 
 
 Tech task contains few important points which has been done:
 - Manual test cases covering the flow
@@ -13,10 +13,18 @@ Tech task contains few important points which has been done:
 ## Instructions <a name="instructions"></a>
 To run the tests locally follow the steps below:
 1. Install dependences `npm install`
+2. Install cypress `npm cypress install`
 2. Run tests from the command line `npx cypress run`
 3. (Optional) To run the tests with preview write in command line `npx cypress run --headed`
 
 ## About the solution <a name="about-the-solution"></a>
+The solution has been done using cypress. Cypress is being used for creating, maintaining and executing all the tests. The tests covers:
+- Login scenarios with wrong credentials
+- Successful login scenario.
+- Successful purchase scenario.
+- Negative purchase scenario which checks missing purchase user data.
+
+For CI/CD configuration GitHub Actions has been used. GitHub Actions makes sure that the tests are running whenever new changes are going to be pushed to the repository.
 
 ## Possible improvements <a name="possible-improvements"></a>
 - Adding Cucumber to the code to improve documentation quality and code undestanding for non technical person.
