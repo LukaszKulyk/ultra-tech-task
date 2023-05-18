@@ -19,5 +19,7 @@ jobs:
           node-version: 16.14.0
       - name: Install all needed dependences
         run: npm install
+      - name: Install Cypress
+        run: npm install cypress --save-dev
       - name: Run Cypress tests
         run: npx cypress run
