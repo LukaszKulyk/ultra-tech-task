@@ -1,0 +1,11 @@
+{
+  "name": "ultra-tech-task",
+  "version": "1.0.0",
+  "description": "This repository contains automated test framerowk for saucedemo dummy webpage. It is a part of **ULTRA** recruitment process. Solution has been done in cypress.  Tech task contains few important points which has been done: - Manual test cases covering the flow - Automated prepared test cases - Testing of the provided functionality is enabled as a part of CI/CD pipeline - Execituon instructions has been provided in README file (below) - Chosen testing approche has been described in README file (below) - All improvements to the task has been described in README file (below)",
+  "main": "cypress.config.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
