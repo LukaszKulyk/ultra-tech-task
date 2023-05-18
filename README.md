@@ -24,12 +24,13 @@ The solution has been done using cypress. Cypress is being used for creating, ma
 - Successful purchase scenario.
 - Negative purchase scenario which checks missing purchase user data.
 
-For CI/CD configuration GitHub Actions has been used. GitHub Actions makes sure that the tests are running whenever new changes are going to be pushed to the repository.
+For CI/CD configuration GitHub Actions has been used. GitHub Actions makes sure that the tests are running whenever new changes are going to be pushed to the repository. Solution and test results can be found in Actions tab in github repository: [link](https://github.com/LukaszKulyk/ultra-tech-task/actions/workflows/ultra-tech-task.yml)
 
 ## Possible improvements <a name="possible-improvements"></a>
 - Adding Cucumber to the code to improve documentation quality and code undestanding for non technical person.
 - Adding more commands to reuse less code in the tests.
-- Add cross-browser tests in the CI/CD pipeline
+- Add cross-browser tests in the CI/CD pipeline.
+- Configure CI/CD to use env variables.
 - Add slack bot with test results.
 - Create more test scenarios to fully cover the app functionality.
 - Configure test report to improve readablity of the tests results.
